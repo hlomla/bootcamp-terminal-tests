@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp-terminal-tests",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
