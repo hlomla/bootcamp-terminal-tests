@@ -25,6 +25,7 @@ const pizzacart = pizzaCart()
 
 const app = express();
 
+// add more middleware to allow for templating support
 app.set('view engine', 'handlebars');
 app.engine('handlebars', exphbs({ 
 	partialsDir: "./views/partials", 
@@ -48,7 +49,7 @@ app.use(session({
 // enable the static folder...
 app.use(express.static('public'));
 
-// add more middleware to allow for templating support
+
 
 // app.engine('handlebars', exphbs());
 
