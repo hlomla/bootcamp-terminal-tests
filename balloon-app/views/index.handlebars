@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings Exercise</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="head-div">
+    
+        <div class="row">
+            <div class="col-12">
+                <h1>The Ballon Shop</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <form action="/" method="POST">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="theColours" class="name-input" value=""><br>
+
+                <span class="counter">
+                    Count :
+                    {{counter}}
+                </span>
+                <div class="row">
+
+                    <input type="radio" id="" name="colours" value="Red">
+                    <label for="Red">Red</label>
+
+                    <input type="radio" id="" name="colours" value="Blue">
+                    <label for="Blue">Blue</label>
+
+                    <input type="radio" id="" name="colours" value="Purple">
+                    <label for="Purple">Purple</label>
+
+                    <input type="radio" id="" name="colours" value="Yellow">
+                    <label for="Yellow">Yellow</label>
+
+                    <input type="radio" id="" name="colours" value="Pink">
+                    <label for="Pink">Pink</label>
+                </div>
+        </div>
+         <button type="submit" class="Add">submit</button>
+    </form>
+
+          <div class="row">
+            <div class="col-12">
+                <ul class="regNo-output" text-align="center">
+                    {{#each output}}
+                    {{this.counts}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 131, 131);
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+.errors {
+    color: red;
+    margin-bottom: 10px;
+}
+.Count{
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.counter {
+    font-size: 150%;
+  
+} 
+.language-greet {
+  margin-top: 10px;
+  margin-bottom: 20px; 
+
+}
+
+.greet-output {
+     margin-top: 15px;
+     margin-bottom: 10px;
+    text-transform: capitalize;
+}
+/* .Greet-Me {
+    margin-top: 8.2px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid hotpink;
+    padding: 3.4px 1.5px;
+}
+
+.Clear {
+    margin-top: 10.5px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid hotpink;
+    padding: 5.4px 2.5px;
+} */
